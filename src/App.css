@@ -1,6 +1,6 @@
 :root{
   --primary-color: #45A5A1;
-  --primary-darker-color: #004B5B;
+  --primary-darker-color: #004b5b;
   --primary-lighter-color: #F4FCFF;
   --background-color: #fff;
   --text-color: #004C5D;
@@ -139,7 +139,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {   
-  border-color: rgba(69,165,161, 0.8);
+  border-color: #45a5a1cc;
   box-shadow: none;
   outline: 0 none;
 }
@@ -291,3 +291,37 @@ input[type="color"]:focus,
   background-color: var(--primary-darkest); 
 }
 /* end schedule section */
+
+
+/* start week view component */
+.week-view{
+  height: 100vh;
+  width: auto;
+}
+
+.week-top-cards{
+  width:150px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid #fff;
+  background-color: #12626D;
+}
+.week-card{
+  background-color: var(--primary-darker-color);
+}
+.day-cards{
+  width:150px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid #fff;
+  background-color: #65B4B4;
+}
+.day-cards:hover{
+  background-color: rgba(0, 75, 91, .9) !important;
+  /* box-shadow: rgba(0, 75, 91, 0.1) 0px 4px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.day-card{
+  background-color: #23787E;
+}
+/* end week view component */

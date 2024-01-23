@@ -325,3 +325,56 @@ input[type="color"]:focus,
   background-color: #23787E;
 }
 /* end week view component */
+
+
+
+
+/* table week columns */
+.week-day{
+  width:150px;
+  height: 50px;
+  padding: 0;
+  background-color: #2e6e76 ;
+}
+.week{
+  background-color: black !important;
+}
+
+.schedule-calendar {
+  margin-top: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.schedule-table tr{
+  width: 150px;
+  height: 50px;
+}
+
+.schedule-table th {
+  background-color: #2e6e76;
+  color: var(--primary-lighter-color);
+}
+.schedule-table tr{
+  background-color: var(--primary-color);
+}
+.event-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* end table week columns */

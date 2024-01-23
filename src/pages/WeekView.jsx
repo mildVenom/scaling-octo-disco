@@ -137,7 +137,6 @@ function WeekView() {
         <div className="day-cards d-flex align-items-center justify-content-center text-light"></div>
         <div className="day-cards d-flex align-items-center justify-content-center text-light"></div>
       </div>
-
     </section>
   )
 }
